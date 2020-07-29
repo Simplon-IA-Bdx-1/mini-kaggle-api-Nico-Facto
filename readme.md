@@ -1,8 +1,10 @@
-## Create Env
-at the root of a folder : python -m venv EnvName
-pip install -r requirements.txt
- -Activate : cd ... EnvName\Scripts\  cmd = activate
- -desactivate : cd ... \Scripts\ cmd = deactivate
+## Create VEnv
+At the root of a folder : 
+ - python -m venv YourEnvName
+ - python -m pip install --upgrade pip
+ - pip install -r requirements.txt
+ - Activate : cd ... YourEnvName\Scripts\  cmd = activate
+ - desactivate : cd ... \Scripts\ cmd = deactivate
 
 ## Split the dataframe 
 python split.py
