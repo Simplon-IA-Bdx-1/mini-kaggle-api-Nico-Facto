@@ -18,7 +18,7 @@ class split_csv():
 
 if __name__ == "__main__":
 
-    df = pd.read_csv("data/cs-training.csv")
+    df = pd.read_csv("data/cs-training.csv", index_col=0)
     this_job = split_csv(df)
     train_df, test2_df = this_job.split_data()
     this_job.export_data(train_df, test2_df)

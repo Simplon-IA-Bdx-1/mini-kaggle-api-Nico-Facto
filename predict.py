@@ -13,7 +13,7 @@ class IaProd():
 
 if __name__ == "__main__":
 
-    df = pd.read_csv("test2.csv")
+    df = pd.read_csv("test2.csv",index_col=0)
     this_job = IaProd(df)
     pred = this_job.iaJob()
     pred.to_csv("test2-predictions.csv")
