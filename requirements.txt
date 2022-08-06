@@ -1,6 +1,6 @@
 pandas==1.0.5
 numpy==1.19.0
-streamlit==0.64.0
+streamlit==1.11.1
 pycaret==1.0.0
 scikit-learn==0.22.1
 matplotlib==3.2.2
